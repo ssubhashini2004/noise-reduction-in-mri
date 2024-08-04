@@ -26,7 +26,7 @@ def calculate_metrics(original, denoised):
     return psnr_value, ssim_value
 def main():
     # File path to the noisy MRI image
-    file_path = r'C:\Users\HP\OneDrive\Pictures\NOISY MRI IMAGES DSA\image4.png'
+    file_path = r'C:\Users\HP\OneDrive\Pictures\NOISY MRI IMAGES DSA\image4.png' #add your own path to the MRI image here
     # Load the noisy MRI image
     noisy_img = load_image(file_path)
     # Denoise using BM3D
